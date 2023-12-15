@@ -1,6 +1,6 @@
 // Developer: CoconutMinz
 // Edition: RC-con
-// Version: 0.7.0
+// Version: 0.7.5
 #include <iostream>
 #include <cmath>
 #include <cstdlib>
@@ -98,7 +98,7 @@ int main() {
     cout<<"Original matrix"<<endl;
     for (int i = 0; i < SIZE; ++i) {
 		for (int j = 0; j < SIZE; ++j) {
-			cout<<matrix[i][j];
+			cout<<matrix[i][j]<<" 1";
 			}
             cout<<endl;
 		}
@@ -122,6 +122,6 @@ int main() {
 	cout << endl;
 	//cout<<"Made by CoconutMinz!"<<endl;
     cout<<"Сделал: Грибанов Александр. Группа ТИ-318. Вариант №17"<<endl;
-	cout<<"Version: 0.7.0"<<endl;
+	cout<<"Version: 0.7.5"<<endl;
 	return 0;
 }
